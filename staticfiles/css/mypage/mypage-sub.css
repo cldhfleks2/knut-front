@@ -1,0 +1,281 @@
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body, button, input, select, td, textarea, th {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, td, textarea, th, ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: unset;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-family: "Noto Sans DemiLight", "Malgun Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-rendering: inherit;
+}
+
+body, button, input, select, td, textarea, th {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+button, input, select, textarea {
+    vertical-align: middle;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+label {
+    cursor: default;
+}
+
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    unicode-bidi: isolate;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h2.body{
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    width: 0;
+}
+
+div.coverimg{
+    background-color: #f8f8f8;
+    min-height: 120px;
+    position: relative;
+}
+
+div.myimg{
+    bottom: -50px;
+    height: 100px;
+    left: 50%;
+    margin-left: 250px;
+    position: absolute;
+    width: 100px;
+    z-index: 5;
+}
+
+img.myimg{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+span.profile-image{
+    background-position: 0 -210px;
+    bottom: 0;
+    height: 42px;
+    position: absolute;
+    right: -13px;
+    width: 42px;
+    background: url(//t1.daumcdn.net/brunch9/static/images/pc/ico_brunch_v1_221221.png) no-repeat;
+    display: inline-block;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    vertical-align: top;
+
+}
+
+label.profile-image{
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: default;
+}
+
+input.profile-image{
+    background: transparent;
+    cursor: pointer;
+    font-size: 0;
+    height: 42px;
+    left: 0;
+    line-height: 0;
+    opacity: .01;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 42px;
+    vertical-align: middle;
+}
+
+div.edit-profile{
+    padding-bottom: 76px;
+}
+
+legend.screen-out{
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    width: 0;
+}
+
+div.name{
+    margin-bottom: -4px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+div.head-name{
+    margin-top: 37px;
+    padding-bottom: 13px;
+    border-bottom: 0;
+    color: #959595;
+    font-size: 12px;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+h3.head-name{
+    color: #333;
+    float: left;
+    font-family: "Noto Sans Medium", "Malgun Gothic", sans-seif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    margin-right: 10px;
+    padding: 1px 0;
+}
+
+input.head-name{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+label.name{
+    color: #333;
+    float: left;
+    font-family: "Noto Sans Medium", "Malgun Gothic", sans-seif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    margin-right: 10px;
+}
+
+span.name{
+    background-position: -160px -230px;
+    display: inline-block;
+    height: 6px;
+    margin: -1px 0 0 4px;
+    vertical-align: top;
+    width: 6px;
+    background: url(//t1.daumcdn.net/brunch9/static/images/pc/ico_brunch_v1_221221.png) no-repeat;
+}
+
+div.name-box{
+    border-width: 0 0 1px;
+    padding-bottom: 6px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+textarea.username{
+    height: 34px;
+    color: #333;
+    font-size: 28px;
+    line-height: 34px;
+    overflow-y: hidden;
+    padding: 0 160px 0 0;
+    resize: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    outline: 0;
+    width: 100%;
+}
+
+p.name-error{
+    display: none;
+    margin: 6px 0 0;
+    clear: both;
+    color: #ff4040;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+div.profile-name-dummy{
+    position: absolute;
+    top: -1000px;
+    width: 700px;
+    color: #333;
+    font-size: 28px;
+    line-height: 34px;
+    overflow-y: hidden;
+    padding: 0 160px 0 0;
+    resize: none;
+    ackground-color: transparent;
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    outline: 0;
+}
+
+div.introduce{
+    margin: 0 auto;
+    width: 700px;
+}
+
+div.introduce{
+    border-bottom: 0;
+    color: #959595;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 57px;
+    overflow: hidden;
+    padding-bottom: 16px;
+}
