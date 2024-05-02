@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Nanum Myeongjo";
     font-weight: normal;
-    src: url("../staticfiles/fonts/NanumMyeongjo.ttf") format("truetype");
+    src: url("../../fonts/NanumMyeongjo.ttf") format("truetype");
 }
 
   @font-face {
     font-family: "Noto Sans Light";
     font-style: normal;
     font-weight: 300;
-    src: url("../staticfiles/fonts/NotoSansCJKkr-Light.otf");
+    src: url("../../fonts/NotoSansCJKkr-Light.otf");
 }
 
   @font-face {
     font-family: "Noto Sans DemiLight";
     font-style: normal;
     font-weight: 300;
-    src: url("../staticfiles/fonts/NotoSansCJKkr-DemiLight.otf");
+    src: url("../../fonts/NotoSansCJKkr-DemiLight.otf");
 }
 
 main {
