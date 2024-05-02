@@ -1,0 +1,485 @@
+::selection {
+    background: #b5d6fd;
+    color: #000;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.ke_photos blockquote, .ke_photos button, .ke_photos code, .ke_photos dd, .ke_photos div, .ke_photos dl, .ke_photos dt, .ke_photos fieldset, .ke_photos form, .ke_photos h1, .ke_photos h2, .ke_photos h3, .ke_photos h4, .ke_photos h5, .ke_photos h6, .ke_photos input, .ke_photos legend, .ke_photos li, .ke_photos ol, .ke_photos p, .ke_photos pre, .ke_photos select, .ke_photos td, .ke_photos textarea, .ke_photos th, .ke_photos ul, body {
+    margin: 0;
+    padding: 0;
+}
+
+.ke_photos, body, html {
+    height: 100%;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, td, textarea, th, ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: unset;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-family: "Noto Sans DemiLight", "Malgun Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-rendering: inherit;
+}
+
+i {
+    font-style: italic;
+}
+
+button, input, select, textarea {
+    vertical-align: middle;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+body, button, input, select, td, textarea, th {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0 !important;
+    position: static !important;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+div[Attributes Style] {
+    -webkit-user-modify: read-only;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+[contenteditable], [contenteditable]:focus {
+    outline: 0 solid transparent;
+}
+
+.write-wrap-div {
+    min-width: 940px;
+}
+
+.write-wrap-updiv {
+    max-height: none !important;
+    position: relative;
+    height: 450px;
+    border-bottom: 1px solid #eee;
+}
+
+.write-wrap-imgwrap, .write-wrap-innerwrap {
+    font-family: "Noto Sans DemiLight";
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.write-wrap-imgwrap {
+    display: block;
+    transition: height .2s;
+    -webkit-transition: height .2s;
+}
+
+.write-wrap-innerwrap {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: height, opacity, .2s;
+}
+
+.write-wrap-updiv .write-wrap-innerwrap {
+    opacity: 0;
+}
+
+.write-title-wrap {
+    position: absolute;
+    right: 50%;
+    width: 700px;
+    z-index: 11;
+}
+
+.write-wrap-updiv .write-title-wrap {
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    -webkit-transform: translate(50%, -50px);
+}
+
+.write-title:empty:before {
+    color: #ccc;
+    opacity: 1;
+    /* color: #fff; */
+    content: "제목을 입력하세요";
+    cursor: text;
+    font-family: Nanum Myeongjo;
+    font-size: 38pt;
+    /* opacity: .6; */
+}
+
+.write-title {
+    word-wrap: break-word;
+    font-family: "Nanum Myeongjo";
+    font-size: 34pt;
+    line-height: 40pt;
+    display: inline-block;
+    max-width: 700px;
+    min-width: 100px;
+    font-size: 34pt;
+    margin-left: -3px;
+    visibility: visible;
+}
+
+.write-title-inputWrap {
+    position: relative;
+    margin: 45px 0px 0px;
+}
+
+.title-input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin: 0px; 
+    font-weight: 100;
+    padding: 15px 60px 15px 0px;
+    line-height: 31px;
+    font-family: Nanum Myeongjo;
+    font-size: 38pt;
+    color: #ccc; /* 입력 안내 텍스트의 색상 */
+    opacity: 1;
+}
+
+.title-input:focus {
+    outline: none;
+}
+
+.title-input::placeholder {
+    color: #ccc; /* 입력 안내 텍스트의 색상 */
+}
+
+.title-input:not(:placeholder-shown) {
+    color: black; /* 입력된 텍스트의 색상 */
+}
+
+.content-text-input-wrap {
+    flex: 1 0 auto;
+    cursor: text;
+}
+
+.content-text-input-container {
+    cursor: text;
+    padding: 40px 0px 30vh;
+}
+
+.content-text-input-inner {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 720px;
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content-text-input-box {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.textarea-container {
+    position: relative;
+}
+
+textarea.content-text-area {
+    overflow-wrap: break-word;
+    transition: background-color 0.1s ease 0s;
+    border: none;
+    margin: 2px -3px;
+    padding: 0px 3px;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    min-height: 28px;
+    outline: none;
+    width: 100%;
+    resize: none;
+}
+
+.content-text-area::placeholder {
+    color: #ccc; /* 입력 안내 텍스트의 색상 */
+}
+
+.content-text-area:not(:placeholder-shown) {
+    color: black; /* 입력된 텍스트의 색상 */
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.upper-btn-wrap {
+    display: inline-block;
+    left: 50%;
+    position: absolute;
+    top: 90px;
+    transform: translateX(479px);
+    -webkit-transform: translateX(479px);
+    transition: opacity .22s;
+    -webkit-transition: opacity .22s;
+    z-index: 9999;
+}
+
+.upper-btn-inner {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 41px;
+    z-index: 3;
+}
+
+.upper-btn-div {
+    position: relative;
+    z-index: 1;
+}
+
+button.photoBtn {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0;
+    border-left: 1px solid #eee;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 39px;
+    -moz-outline: 0;
+    outline: 0;
+    padding: 2px 0;
+    text-align: center;
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    -ms-transition: background .1s linear;
+    -o-transition: background .1s linear;
+    width: 42px;
+    z-index: 2;
+}
+
+.upper-btn-wrap .photoBtn {
+    margin-top: 1px;
+    position: relative;
+    z-index: 0;
+    border: none;
+}
+
+.real-btn-icon {
+    background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/btn_editor.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: -15px -20px;
+    height: 25px;
+    width: 25px;
+}
+
+i {
+    display: inline-block;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.file-wrap {
+    background: transparent;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.photo-file-input {
+    cursor: pointer;
+    /* height: 41px; */
+    opacity: .01;
+    outline: 0;
+    text-indent: -9999px;
+    width: 41px;
+}
+
+.real-remove-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 24px;
+    background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/editor/btn_cover.png);
+    background-position: 3px -250px;
+}
+
+.side-btn-wrap {
+    display: inline-block;
+    position: absolute;
+    transition: opacity .22s;
+    -webkit-transition: opacity .22s;
+    z-index: 9999;
+    left: 50%;
+    /* position: fixed; */
+    margin-top: 150px;
+    -webkit-transform: translateX(479px);
+}
+
+.side-btn-bg {
+    background-color: #fff;
+    border-radius: 2px;
+    height: 340px;
+    left: 3px;
+    opacity: .95;
+    position: absolute;
+    top: -4px;
+    width: 38px;
+}
+
+.side-btn-inner {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 41px;
+}
+
+.dside-btn-wrapdiv {
+    position: relative;
+    z-index: 1;
+}
+
+button.side-btn {
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0;
+    border-left: 1px solid #eee;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 39px;
+    -moz-outline: 0;
+    outline: 0;
+    padding: 2px 0;
+    text-align: center;
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    -ms-transition: background .1s linear;
+    -o-transition: background .1s linear;
+    width: 42px;
+    z-index: 2;
+}
+
+.side-btn-wrap .side-btn {
+    margin-top: 1px;
+    border: none;
+}
+
+button.side-btn[data-cmd]:after {
+    content: "";
+    height: 28px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 6px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    z-index: -1;
+}
+
+button.side-btn[data-cmd=insertImage]:after {
+    background: url(//t1.daumcdn.net/brunch/static/img/guide/pc_guide_tip01.png) no-repeat;
+    width: 52px;
+}
+
+.side-img-icon {
+    background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/btn_editor.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+.side-img-icon {
+    background-position: 1px 2px;
+}
+
+.side-btn-wrap .side-img-icon{
+    background-image: url(//t1.daumcdn.net/brunch/static/img/help/pc/editor/btn_side.v2.png);
+}
+
+.side-file-wrap {
+    background: transparent;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.side-file-input {
+    cursor: pointer;
+    /* height: 41px; */
+    opacity: .01;
+    outline: 0;
+    text-indent: -9999px;
+    width: 41px;
+}
