@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style data-emotion="css-global" data-s="">
+      @font-face {
+        font-family: "Nanum Myeongjo";
+        font-weight: normal;
+        src: url("../../staticfiles/fonts/NanumMyeongjo.ttf") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Noto Sans Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("../../staticfiles/fonts/NotoSansCJKkr-Light.otf");
+      }
+
+      @font-face {
+        font-family: "Noto Sans DemiLight";
+        font-style: normal;
+        font-weight: 300;
+        src: url("../../staticfiles/fonts/NotoSansCJKkr-DemiLight.otf");
+      }
+
+      html {
+        font-family: "Noto Sans DemiLight", "Malgun Gothic", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <link rel="stylesheet" href="../../staticfiles/css/mypage/mypage-sub.css" />
+    <title>프로필 편집</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h2 class="body">프로필 편집</h2>
+        <div class="coverimg">
+          <div class="myimg">
+            <img
+              src="//img1.daumcdn.net/thumb/C160x160/?fname=https://t1.daumcdn.net/brunch/static/img/help/pc/ico_profile_100_02.png"
+              alt="프로필 이미지"
+              class="myimg"
+              width="80"
+              height="80"
+            />
+            <form
+              enctype="multipart/form-data"
+              encoding="multipart/form-data"
+              method="post"
+            >
+              <span class="profile-image">
+                <label for="profileImage" class="profile-image"
+                  >이미지 업로드</label
+                >
+                <input
+                  type="file"
+                  class="profile-image"
+                  name="file"
+                  accept="image/*"
+                />
+              </span>
+            </form>
+          </div>
+        </div>
+        <div class="edit-profile">
+          <form onsubmit="return false;" method="post">
+            <fieldset>
+              <legend class="screen-out">프로필 편집 입력폼</legend>
+              <div class="name">
+                <div class="head-name">
+                  <h3 class="head-name">
+                    <input type="hidden" class="head-name" value />
+                    <label for="authorName" class="name">작가명</label>
+                    <span class="name"></span>
+                  </h3>
+                </div>
+                <div class="name-box">
+                  <textarea
+                    name="userName"
+                    placeholder="이름을 입력해주세요."
+                    class="username"
+                    maxlength="30"
+                    style="height: 34px"
+                  >
+은종</textarea
+                  >
+                  <p class="name-error">작가명을 입력해주세요.</p>
+                  <div
+                    class="profile-name-dummy"
+                    style="position: absolute; top: -1000px; width: 700px"
+                  ></div>
+                </div>
+              </div>
+              <div class="introduce">
+                <div class="introduce-sub">
+                  <h3 class="introduce">
+                    <label for="profileInfo" class="introduce">소개</label>
+                  </h3>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </article>
+    </main>
+  </body>
+  <script src="../../staticfiles/js/mypage/mypage-sub.js"></script>
+</html>
